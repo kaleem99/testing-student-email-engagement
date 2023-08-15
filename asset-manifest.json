@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/testing-student-email-engagement/static/css/main.0cf6a8d8.css",
-    "main.js": "/testing-student-email-engagement/static/js/main.99072f79.js",
-    "static/js/787.de783fe8.chunk.js": "/testing-student-email-engagement/static/js/787.de783fe8.chunk.js",
-    "static/media/logo.svg": "/testing-student-email-engagement/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/testing-student-email-engagement/index.html",
-    "main.0cf6a8d8.css.map": "/testing-student-email-engagement/static/css/main.0cf6a8d8.css.map",
-    "main.99072f79.js.map": "/testing-student-email-engagement/static/js/main.99072f79.js.map",
-    "787.de783fe8.chunk.js.map": "/testing-student-email-engagement/static/js/787.de783fe8.chunk.js.map"
+    "main.css": "/student-engagement-signature/static/css/main.0cf6a8d8.css",
+    "main.js": "/student-engagement-signature/static/js/main.cd99d55f.js",
+    "static/js/787.72990918.chunk.js": "/student-engagement-signature/static/js/787.72990918.chunk.js",
+    "static/media/logo.svg": "/student-engagement-signature/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/student-engagement-signature/index.html",
+    "main.0cf6a8d8.css.map": "/student-engagement-signature/static/css/main.0cf6a8d8.css.map",
+    "main.cd99d55f.js.map": "/student-engagement-signature/static/js/main.cd99d55f.js.map",
+    "787.72990918.chunk.js.map": "/student-engagement-signature/static/js/787.72990918.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0cf6a8d8.css",
-    "static/js/main.99072f79.js"
+    "static/js/main.cd99d55f.js"
   ]
 }
