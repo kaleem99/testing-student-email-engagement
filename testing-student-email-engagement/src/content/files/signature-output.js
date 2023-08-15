@@ -18,7 +18,7 @@ const signatureOutput = (state) => {
         width="470"
         height="22"
         valign="top"
-        style="color: #3d75d4; font-size: 16px"
+        style="color: #3d75d4; font-size: 14.63px"
         role="none"
       >
         <strong id="pfirstName" tabIndex="1" aria-description="First name">
@@ -40,12 +40,10 @@ const signatureOutput = (state) => {
         width="470"
         height="22"
         valign="top"
-        style="color: #303030; font-size: 16px"
+        style="color: #303030; font-size: 13.3px"
         role="none"
       >
-        <strong id="callOrText" tabIndex="5" aria-description="Call or Text">
           Call or text: ${state.phoneLine}
-        </strong>
       </td>
     </tr>
     <tr>
@@ -53,26 +51,22 @@ const signatureOutput = (state) => {
         width="470"
         height="22"
         valign="top"
-        style="color: #303030; font-size: 16px"
+        style="color: #303030; font-size: 13.3px"
         role="none"
       >
-        <strong id="callOrText" tabIndex="5" aria-description="Call or Text">
           General Admissions: ${state.generalHotline}
-        </strong>
       </td>
     </tr>
     <tr>
       <td
         width="470"
         valign="top"
-        style="color: #303030; font-size: 16px"
+        style="color: #303030; font-size: 13.3px; height: 22px;"
         role="none"
       >
-        <strong id="email" tabIndex="5" aria-description="email">
           <a href="mailto:${state.universityEmail}">
             ${state.universityEmail}
           </a>
-        </strong>
       </td>
     </tr>
     <tr>
@@ -80,18 +74,17 @@ const signatureOutput = (state) => {
         width="470"
         height="60px"
         valign="top"
-        style="color: #303030; font-size: 16px"
+        style="color: #303030; font-size: 13.3px"
         role="none"
       >
-        <strong id="email" tabIndex="5" aria-description="email">
           <a
             href="${state.calenderLink}"
-            style="text-decoration: none; font-size: 16px"
+            style="text-decoration: none; font-size: 13.3px"
             target="_blank"
           >
             <span
               style="
-                font-size: 16px;
+                font-size: 13.3px;
                 font-family: 'Proxima Nova', sans-serif;
                 font-variant-numeric: normal;
                 font-variant-east-asian: normal;
@@ -103,18 +96,18 @@ const signatureOutput = (state) => {
               "
             >Schedule a meeting here&nbsp;</span>
           </a>
-        </strong>
       </td>
     </tr>
     <tr>
       <td
         style="
-          font-size: 14px;
+          font-size: 11.97px;
           width: 394px;
           font-style: italic;
           text-align: left;
           margin-left: 2px;
-          height: 60px;
+          height: auto;
+          padding-bottom: 25px;
           vertical-align: top;
         "
       >
@@ -126,11 +119,13 @@ const signatureOutput = (state) => {
     <tr>
       <td
         style="
-          font-size: 14px;
+          font-size: 11.97px;
           width: 394px;
           font-style: italic;
           text-align: left;
           margin-left: 2px;
+          height: 30px;
+          vertical-align: top;
         "
       >
         2U, Inc.
@@ -139,11 +134,13 @@ const signatureOutput = (state) => {
     <tr>
       <td
         style="
-          font-size: 14px;
+          font-size: 11.97px;
           width: 394px;
           font-style: italic;
           text-align: left;
           margin-left: 2px;
+          height: 30px;
+          vertical-align: top;
         "
       >
         7900 Harkins Rd
@@ -152,11 +149,13 @@ const signatureOutput = (state) => {
     <tr>
       <td
         style="
-          font-size: 14px;
+          font-size: 11.97px;
           width: 394px;
           font-style: italic;
           text-align: left;
           margin-left: 2px;
+          height: 30px;
+          vertical-align: top;
           height: 30px;
           vertical-align: top;
         "
@@ -167,7 +166,7 @@ const signatureOutput = (state) => {
     <tr>
       <td
         style="
-          font-size: 14px;
+          font-size: 11.97px;
           width: 394px;
           font-style: italic;
           text-align: left;
