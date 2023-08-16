@@ -16,7 +16,7 @@ const signatureOutput = (state) => {
     <tr>
       <td
         width="470"
-        height="22"
+        height="18px"
         valign="top"
         style="color: #3d75d4; font-size: 14.63px"
         role="none"
@@ -38,7 +38,7 @@ const signatureOutput = (state) => {
     <tr>
       <td
         width="470"
-        height="22"
+        height="18px"
         valign="top"
         style="color: #303030; font-size: 13.3px"
         role="none"
@@ -49,7 +49,7 @@ const signatureOutput = (state) => {
     <tr>
       <td
         width="470"
-        height="22"
+        height="18px"
         valign="top"
         style="color: #303030; font-size: 13.3px"
         role="none"
@@ -61,7 +61,7 @@ const signatureOutput = (state) => {
       <td
         width="470"
         valign="top"
-        style="color: #303030; font-size: 13.3px; height: 22px;"
+        style="color: #303030; font-size: 13.3px; height: 18px;"
         role="none"
       >
           <a href="mailto:${state.universityEmail}">
@@ -72,7 +72,7 @@ const signatureOutput = (state) => {
     <tr>
       <td
         width="470"
-        height="60px"
+        height="55px"
         valign="top"
         style="color: #303030; font-size: 13.3px"
         role="none"
@@ -107,7 +107,7 @@ const signatureOutput = (state) => {
           text-align: left;
           margin-left: 2px;
           height: auto;
-          padding-bottom: 25px;
+          padding-bottom: 20px;
           vertical-align: top;
         "
       >
@@ -124,7 +124,6 @@ const signatureOutput = (state) => {
           font-style: italic;
           text-align: left;
           margin-left: 2px;
-          height: 30px;
           vertical-align: top;
         "
       >
@@ -139,7 +138,6 @@ const signatureOutput = (state) => {
           font-style: italic;
           text-align: left;
           margin-left: 2px;
-          height: 30px;
           vertical-align: top;
         "
       >
@@ -154,9 +152,7 @@ const signatureOutput = (state) => {
           font-style: italic;
           text-align: left;
           margin-left: 2px;
-          height: 30px;
           vertical-align: top;
-          height: 30px;
           vertical-align: top;
         "
       >
@@ -171,11 +167,12 @@ const signatureOutput = (state) => {
           font-style: italic;
           text-align: left;
           margin-left: 2px;
-          height: 80;
+          height: 35px;
+          vertical-align: bottom;
         "
-      >
+      > If you no longer wish to receive these emails,
         <a target="_blank" href="${state.UnsubscribeLink}">
-          If you no longer wish to receive these emails, you may unsubscribe at
+          you may unsubscribe at
           any time.
         </a>
       </td>
